@@ -21,6 +21,8 @@ What are the main concepts?
 
 ## Mindmap
 
+https://excalidraw.com/#json=AH-vdyTqcdKGPQUGKj-nq,7buSESbWupWQAzqTeC6rJQ
+
 ## Example used
 
 We will work on country population example.
