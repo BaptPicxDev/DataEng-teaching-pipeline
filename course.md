@@ -59,5 +59,13 @@ You also need to speak english. (I still can do it in french but english is nece
 ## 🫡 Voice level
 *aim: Volume of the voice is adapted to the room and audience*
 
+## To go further?
+
+Some topics that we did not speak about (too short in 15 minutes).
+
+- Orchestration and usage of git
+- Usage of Docker to container the solution
+- Storage in a database
+
 ## Contact
 picard.baptiste22@gmail.com
