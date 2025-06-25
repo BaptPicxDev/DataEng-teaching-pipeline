@@ -24,3 +24,4 @@ run:
 clean:
 	echo "Cleaning python3.12 virtual environment."
 	rm -rf .venv/
+	rm -rf data/

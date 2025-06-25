@@ -11,5 +11,7 @@ setup(
         "wheel==0.44.0",
         "numpy==1.26.4",
         "pandas==2.1.2",
+        "kaggle",
+        "lxml",
     ],
 )
