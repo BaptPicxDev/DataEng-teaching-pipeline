@@ -21,9 +21,18 @@ What are the main concepts?
 
 ## Mindmap
 
-![Data Engineering Mind Map](img/mindmap_dataeng-2.excalidraw)
+![Data Engineering Mind Map](img/mindmap_dataeng.png)
 
-https://excalidraw.com/#json=AH-vdyTqcdKGPQUGKj-nq,7buSESbWupWQAzqTeC6rJQ
+Mindmap of what Data Engineering is.
+We will use this to develop our solution.
+
+## ETL and ELT
+
+We will focus on ETL, even if the current mainstream way of doing is ELT (Big query etc.)
+
+
+![ELT solution design for world population](img/mindmap_dataeng_ETL.png)
+
 
 ## Example used
 
