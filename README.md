@@ -7,10 +7,19 @@ The idea is to answer "Le Wagon" teaching assessment, but for this I need a basi
 I also want to keep track about this work and I may, over the time, improve it.
 Do not hesitate to fork the project and improce it on your own.
 
+## Requirements
+
+To follow this course, a minimum of technical skills are required.
+Understanbding and basic usage of python.
+
+We will use Python3.12.
+
 ## Aim
 
 How to build a data pipeline?
 What are the main concepts?
+
+## Mindmap
 
 ## Example used
 
