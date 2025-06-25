@@ -21,7 +21,8 @@ What are the main concepts?
 
 ## Mindmap
 
-![Data Engineering Mind Map](assets/mindmap.png)
+![Data Engineering Mind Map](img/mindmap_dataeng-2.excalidraw)
+
 https://excalidraw.com/#json=AH-vdyTqcdKGPQUGKj-nq,7buSESbWupWQAzqTeC6rJQ
 
 ## Example used
