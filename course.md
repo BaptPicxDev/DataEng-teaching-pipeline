@@ -49,6 +49,14 @@ But before all of this, you need to retrieve and clean the data.
 This is where Data Engineering shows up.
 Data engineers retrieves the data, cleans it, shapes it and store it. Often in something called a datalake or a data warehouse.
 
+## What is Data Engineering? - two minutes
+
+Data Engineering is the foundation of modern data systems.
+Focuses on designing, building, and maintaining systems for collecting, storing, and analyzing data.
+Think of it like plumbing for data—you move it from Point A to B, clean it, and ensure it flows efficiently and safely.
+
+![DE pipeline](img/de_ds_da.png)
+
 ## ❓ Engagement
 *aim: Creates a welcoming atmosphere in which asking questions is welcomed and encouraged. Keeps the lecture engaging by relying on appealing methods of explaining technical content ( i.e. live demos, running code )*
 
