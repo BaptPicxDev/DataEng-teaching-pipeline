@@ -58,6 +58,12 @@ At this stage, we created a datalake (small indeed but still a datalake).
 We will work on country population example.
 We will try to retrive the data through multiple interfaces.
 
+## Data warehouse vs Data lake
+
+"What's the difference between a data lake and a data warehouse? Data lakes store all types of raw data, which data scientists may then use for a variety of projects. Data warehouses store cleaned and processed data, which can then be used to source analytic or operational reporting, as well as specific BI use cases." - Microsoft
+
+https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-lake#:~:text=risks%20more%20efficiently.-,What's%20the%20difference%20between%20a%20data%20lake%20and%20a%20data,as%20specific%20BI%20use%20cases.
+
 ## Tools
 
 I will use a lot excalidraw, that you can access here: https://excalidraw.com
@@ -72,6 +78,8 @@ I will also use Markdown format for some of my schemas.
 - Data scraping: A process of importing data from websites into files or spreadsheets
 - SQL: Structured Query Language
 - NoSQL: Not only SQL (?)
+- Datalake: A centralized repository designed to store, process, and secure large amounts of structured, semistructured, and unstructured data
+- Datawarehouse: An enterprise system used for the analysis and reporting of structured and semi-structured data from multiple sources
 
 ## Contact
 
