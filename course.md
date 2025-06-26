@@ -35,6 +35,20 @@ You also need to speak english. (I still can do it in french but english is nece
 ## 👁️ Demonstrations
 *aim: Fosters understanding with concise language, relatable analogies and visual aids ( i.e. sketches, diagrams )*
 
+## Why Data Science Matter - a one minute introduction
+
+Imagine you're Netflix.
+You need to know what your users are watching, when, and on which devices.
+How do you take data from millions of clicks and turn it into recommendations, billing, and marketing?
+That’s where data science comes in.
+
+Data Science is a large topic.
+It goes from Data Engineering that we will talk about, Data Analysis that porpuses to understand the data and the meaning, Data Science that purposes to build ML out of it.
+But before all of this, you need to retrieve and clean the data.
+
+This is where Data Engineering shows up.
+Data engineers retrieves the data, cleans it, shapes it and store it. Often in something called a datalake or a data warehouse.
+
 ## ❓ Engagement
 *aim: Creates a welcoming atmosphere in which asking questions is welcomed and encouraged. Keeps the lecture engaging by relying on appealing methods of explaining technical content ( i.e. live demos, running code )*
 
