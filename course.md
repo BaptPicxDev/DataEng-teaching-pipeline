@@ -57,6 +57,25 @@ Think of it like plumbing for data—you move it from Point A to B, clean it, an
 
 ![DE pipeline](img/de_ds_da.png)
 
+## What is a Data Pipeline? - two minutes
+
+A data pipeline is a series of steps where data goes through different stages.
+
+These steps are usually:
+
+- Extraction – Retrieving data from a source (can be files, databases, APIs, etc)
+- Transformation – Cleaning, filtering, and reshaping the data
+- Loading – Storing the data in a destination (data warehouse, data lake)
+
+Example:
+“It’s like cooking: ingredients (raw data), recipe steps (transformations), final dish (clean, ready-to-use data).”
+
+We usually call it ETL (Extract, Transform, Load):
+
+![elt example](img/elt.png)
+
+But we can also
+
 ## ❓ Engagement
 *aim: Creates a welcoming atmosphere in which asking questions is welcomed and encouraged. Keeps the lecture engaging by relying on appealing methods of explaining technical content ( i.e. live demos, running code )*
 
