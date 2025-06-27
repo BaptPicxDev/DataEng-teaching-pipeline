@@ -72,14 +72,14 @@ Example:
 
 We usually call it ETL (Extract, Transform, Load):
 
-![etl example](img/mindmap_dataeng_ETL.png.png)
+![etl example](img/mindmap_dataeng_ETL.png)
 
 But we can also ELT (Extract, Load, Transform):
 
 Example:
 “It’s like making a buffet: ingredients (raw data), setting all the buffet (ready to serve), people setting up there own plates(Transformation)”
 
-![elt example](img/mindmap_dataeng_elt.png.png)
+![elt example](img/mindmap_dataeng_elt.png)
 
 ## ❓ Engagement
 *aim: Creates a welcoming atmosphere in which asking questions is welcomed and encouraged. Keeps the lecture engaging by relying on appealing methods of explaining technical content ( i.e. live demos, running code )*
