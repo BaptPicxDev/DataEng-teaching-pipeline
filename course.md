@@ -81,6 +81,26 @@ Example:
 
 ![elt example](img/mindmap_dataeng_elt.png)
 
+## Live coding example - 5 minutes
+
+## Key Tools and Best Practices - 2 minutes
+
+Don't forget about good practices & specific tools
+
+- Use Airflow to orchestrate your workflow - a simpler solution can be cron
+- Don't forget to create a docker image for your solution to be ready to go on production
+- Code quality, code testing, data quality are important. You can use pytest for unit & integration test. Postman for API test, soda for data quality.
+- Use PySpark and a redhat distribution when it comes to "Big Data".
+- I presented a "bacth" example (that runs when you want by orchestrating it for instance). But streaming is the opposite and should always run. Kafka is nice for this.
+- Log your code and monitor your run and data
+- Keep scalability topics within your mind- What's are your data size? How much time do you want your process to take? Are your data usable? Is it meaningful?
+
+## Conclusion
+
+A data pipeline is more than just moving data—it’s about making it reliable, scalable, and usable.”
+Ask: “What kind of data pipelines could you imagine building in your industry?”
+Offer a simple challenge: “Try loading any CSV and cleaning it using Python and save it to SQLite—then think about what you could add next!”
+
 ## ❓ Engagement
 *aim: Creates a welcoming atmosphere in which asking questions is welcomed and encouraged. Keeps the lecture engaging by relying on appealing methods of explaining technical content ( i.e. live demos, running code )*
 
