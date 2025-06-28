@@ -141,8 +141,9 @@ def retrieve_country_population_from_kaggle(
        kaggle_api.dataset_download_file(dataset_name, filename, path="data/")
     
     # WRITE SOMETHING HERE
+    return pd.read_csv(os.path.join("data/", filename))
 
 
 # Main thread for testing.
 if __name__ == "__main__":
-    retrieve_country_population_from_kaggle()
+    print(retrieve_country_population_from_kaggle())

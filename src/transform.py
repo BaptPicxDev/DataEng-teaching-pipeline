@@ -30,5 +30,27 @@ def transform_inputs() -> pd.DataFrame:
     # Retrieving inputs
     df_wiki, df_kaggle = retrieve_inputs()
     # Cleaning Wiki data.
-    
+    df_wiki["country_name"] = df_wiki["country_name"].str.lower().str.strip()
+    df_wiki["capital"] = df_wiki["capital"].str.lower().str.strip()
+    df_wiki["year"] = 2021
+    df_wiki = df_wiki.rename(columns={"population_2021": "population"})
+    # Cleaning kaggle data.
+    df_kaggle["country_name"] = df_kaggle["country_name"].str.lower().str.strip()
+    df_kaggle["year"] = df_kaggle["year"].astype("int")
+    # Retrieving the possible 205 countries with want to work with - from wikipedia
+    possible_countries = (
+        df_wiki.merge(
+            df_kaggle,
+            on="country_name",
+            how="left",
+        )
+        .loc[:, "country_name"]
+        .unique()
+    )
+    # Adding capital and continent to df_kaggle
     # WRITE SOMETHING HERE
+    # Concatenating df_kaggle & df_wiki into df_final
+    df_final = # WRITE SOMETHING HERE
+    # return 
+    df_final = df_final[df_final.country_name.isin(possible_countries)]
+    return df_final
