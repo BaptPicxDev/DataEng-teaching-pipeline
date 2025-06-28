@@ -4,13 +4,16 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 import pandas as pd
 import typing
 
+
 # Functions.
-def retrieve_country_population_from_wikipedia(url="https://simple.wikipedia.org/wiki/List_of_countries_by_continents") -> pd.DataFrame:
-    """USe pandas read_html to retrieve all the tableau data contained into the html page.
+def retrieve_country_population_from_wikipedia(
+        url="https://simple.wikipedia.org/wiki/List_of_countries_by_continents",
+    ) -> pd.DataFrame:
+    """Use pandas read_html to retrieve all the tableau data contained into the html page.
     Once retrieve, select the specific one and return the corresponding DataFrame.
 
     :param url: URL of the wikipedia page.
-    :return pd.DataFrame:
+    :return pd.DataFrame: DataFrame with wikipedia 2021 country population.
     """
     dfs_continents = pd.read_html(url)
     df_africa = dfs_continents[0]
@@ -109,6 +112,7 @@ def retrieve_country_population_from_wikipedia(url="https://simple.wikipedia.org
     df_continent = df_continent.drop(columns=["language", "currency", "area_km2"])
     return df_continent.reset_index()
 
+
 def retrieve_country_population_from_kaggle(
         dataset_name="imdevskp/world-population-19602018",
         filename="population_total_long.csv",
@@ -120,8 +124,8 @@ def retrieve_country_population_from_kaggle(
     You can access it here: https://www.kaggle.com/datasets/imdevskp/world-population-19602018?select=population_total_long.csv
 
     :param dataset_name: user and dataset name separated by '/'
-    :param filename: corresponding filename
-    :return pd.DataFrame:
+    :param filename: corresponding filename.
+    :return pd.DataFrame: DataFrame with kaggle historical country population.
     """
     # Authenticating through kaggle API.
     kaggle_api = KaggleApi()

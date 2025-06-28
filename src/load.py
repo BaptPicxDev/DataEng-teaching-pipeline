@@ -7,7 +7,10 @@ from src.transform import (
 
 # Functions
 def store_transfomed_df_into_csv_files(output_name="df.csv") -> None:
-    """
+    """Use the extraction step to retrieve the merge DataFrame.
+    Store this DataFrame into .csv format, within data/ folder.
+
+    :param output_name: file output name.
     """
     # Extract and transform data.
     df = transform_inputs()
