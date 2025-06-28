@@ -47,10 +47,11 @@ def transform_inputs() -> pd.DataFrame:
         .loc[:, "country_name"]
         .unique()
     )
-    # Adding capital and continent to df_kaggle
-    # WRITE SOMETHING HERE
+    # Adding 'capital' and 'continent' coming from df_wiki to df_kaggle
+    df_kaggle = # WRITE SOMETHING HERE
     # Concatenating df_kaggle & df_wiki into df_final
     df_final = # WRITE SOMETHING HERE
     # return 
     df_final = df_final[df_final.country_name.isin(possible_countries)]
+    df_final = df_final.drop(columns=["index"])
     return df_final

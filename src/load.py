@@ -19,4 +19,5 @@ def store_transfomed_df_into_csv_files(output_name="df.csv") -> None:
         os.makedirs("data/")
     # Creating output_path
     output_path = os.path.join("data/", output_name)
-    # WRITE SOMETHING HERE
+    # Exporting df
+    df # WRITE SOMETHING HERE

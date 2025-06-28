@@ -139,9 +139,11 @@ def retrieve_country_population_from_kaggle(
     # Download the data using python kaggle API if it does not exists
     if not os.path.exists(os.path.join("data/", filename)):
        kaggle_api.dataset_download_file(dataset_name, filename, path="data/")
-    
-    # WRITE SOMETHING HERE
-    return pd.read_csv(os.path.join("data/", filename))
+    # Reading DataFrame
+    df = # WRITE SOMETHING HERE
+    # Chaing column names.
+    df.columns = ["country_name", "year", "population"]
+    return df
 
 
 # Main thread for testing.
